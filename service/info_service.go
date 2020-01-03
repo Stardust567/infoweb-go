@@ -18,7 +18,7 @@ func (service *InfoService) GetInfoList() serializer.Response {
 	total := 0
 
 	if service.Limit == 0 {
-		service.Limit = 6
+		service.Limit = 10
 	}
 
 	service.Title = "%" + service.Title + "%"
